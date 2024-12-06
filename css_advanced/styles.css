@@ -45,6 +45,7 @@ nav {
     gap: 40px;
 }
 
+/* get schooled */
 .get-schooled {
     display: flex;
     flex-direction: column;
@@ -134,6 +135,8 @@ nav {
     font-size: 16px;
 }
 
+/* Quote section */
+
 .testimonials {
     height: 392px;
     top: 1093px;
@@ -176,6 +179,8 @@ nav {
     font-style: italic;
     margin: 0;
 }
+
+/* Video section */
 
 .tutorials {
     display: flex;
@@ -301,6 +306,8 @@ nav {
     text-align: right;
 }
 
+/* Memebrships section */
+
 .memberships {
     background-color: #071629;
     display: flex;
@@ -392,6 +399,8 @@ nav {
     margin: 0 0 30px 0;
 }
 
+/* F.A.Q section */
+
 .faq {
     background-color: #ffffff;
     width: 100%;
@@ -461,6 +470,8 @@ nav {
     margin-bottom: 10px; 
 }
 
+/* Footer section */
+
 .footer {
     background-color: #071629;
     display: flex;
@@ -500,3 +511,4 @@ nav {
     color: #979797;
     margin: 0;
 }
+
