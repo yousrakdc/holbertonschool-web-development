@@ -1,4 +1,5 @@
 # Project Name: **HTML and CSS Webpage from Figma Design**
+![smileschool](https://github.com/user-attachments/assets/563c0098-8b9e-4818-9736-bd2fa765ca97)
 
 ## Overview  
 This project focuses on building a fully functional webpage based on a provided Figma design. The goal is to translate the design into a semantic HTML structure, styled with CSS, ensuring alignment with modern web standards for accessibility, maintainability, and responsiveness.
