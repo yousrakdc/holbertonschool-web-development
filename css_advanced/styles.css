@@ -1,0 +1,484 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    height: 50px;
+}
+
+.header-wrapper {
+    background: url('./images/background.png') no-repeat center/cover;
+    color: white;
+    padding-bottom: 50px;
+}
+
+/* Header Styling */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 40px;
+    height: 150px;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+header img {
+    height: 30px;
+}
+
+.get-schooled {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    flex-grow: 1;
+}
+
+.get-schooled h1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    font-size: 120px;
+    margin-bottom: -20px;
+}
+
+.get-schooled p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    word-spacing: 60px;
+}
+
+.get-schooled button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #C271FF;
+	width: 162px;
+	height: 44px;
+	border: none;
+	box-shadow: 0px 2px 20px 0px #00000080;
+	font-family: 'Source Sans Pro';
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 17.6px;
+	text-align: center;
+	color: #FFFFFF;
+	border-radius: 50px;
+}
+/* Apply purple color to 'Learn' */
+.learn {
+    color: #C271FF;
+}
+
+.pros {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 32px;
+}
+.people-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    border-radius: 100%;
+    margin-bottom: 20px;
+    gap: 90px;
+}
+
+.people-row h3 {
+    font-family: 'Source Sans Pro';
+    font-size: 18px;
+}
+
+.people-row img {
+    border-radius: 80px;
+}
+
+.people-row p {
+    font-family: 'Source Sans Pro';
+    font-style: italic;
+    font-size: 16px;
+}
+
+.testimonials {
+    height: 392px;
+    top: 1093px;
+    gap: 50px;
+    background-color: #C271FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.testimonials div {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    text-align: left;
+    gap: 10px;
+}
+
+.testimonials blockquote {
+    font-family: 'Source Sans Pro';
+    font-size: 22px;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.testimonials p {
+    font-family: 'Source Sans Pro';
+    font-size: 22px;
+    color: #FFFFFF;
+    font-weight: bold;
+    margin: 0;
+}
+
+.testimonials span {
+    font-family: 'Source Sans Pro';
+    font-size: 22px;
+    color: #FFFFFF;
+    font-style: italic;
+    margin: 0;
+}
+
+.tutorials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+	margin: 50px 0;
+}
+
+.tutorials h1 {
+    width: 350px;
+	height: 40px;
+	font-weight: 300;
+	line-height: 40px;
+	text-align: center;
+	color: #071629;
+	margin-bottom: 80px;
+    font-family: 'Source Sans Pro';
+    font-size: 32px;
+}
+
+.tutorials h1 span {
+	font-size: 32px;
+	font-weight: 700;
+	line-height: 40px;
+	text-align: center;
+	color: #C271FF;
+    font-size: bold;
+    font-family: 'Source Sans Pro';
+    font-size: 32px;
+}
+
+.tutorial {
+    height: auto; 
+    display: flex;
+    gap: 30px;
+    align-items: row;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.vids {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 8px;
+    padding: 20px;
+    width: 255px; 
+}
+
+.vids img {
+    width: 255px;
+    height: 154px;
+    border-radius: 8px;
+}
+
+.vids h2 {
+    font-family: 'Source Sans Pro';
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+    margin: 10px 0;
+    text-align: left;
+    width: 100%;
+}
+
+.vids p {
+    font-family: 'Source Sans Pro';
+    font-size: 14px;
+    line-height: 24px;
+    color: #07162980;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 15px 0;
+    width: 100%;
+}
+
+.author img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.author h3 {
+    color: #C271FF;
+    font-family: 'Source Sans Pro';
+    font-size: 14px;
+    margin: 0;
+}
+
+.ratings {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-family: 'Source Sans Pro';
+    font-size: 14px;
+    color: #666;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.ratings img {
+    width: 15px;
+    height: 15px;
+}
+
+.ratings .time {
+    font-size: 14px;
+    font-weight: 600;
+    color: #C271FF;
+    margin-left: 50px;
+    text-align: right;
+}
+
+.memberships {
+    background-color: #071629;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.memberships h1 {
+    width: 350px;
+	height: 40px;
+	font-weight: 300;
+	line-height: 40px;
+    font-family: 'Source Sans Pro';
+    color: #FFFFFF;
+    margin-bottom: 50px;
+    font-weight: 300px;
+    font-size: 32px;
+}
+
+.memberships h1 span {
+    color: #C271FF;
+    font-weight: bold;
+}
+
+.membership-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1140px;
+}
+
+.membership {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    width: 200px;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+.membership img {
+    height: 40px;
+    width: 50px;
+    margin-bottom: 15px;
+}
+
+.membership h2 {
+    color: #FFFFFF;
+    font-family: 'Source Sans Pro';
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.membership p {
+    color: #FFFFFF;
+    font-family: 'Source Sans Pro';
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    max-width: 200px;
+    margin-bottom: auto;
+}
+
+.mem_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #C271FF;
+    width: 162px;
+    height: 44px;
+    border: none;
+    box-shadow: 0px 2px 20px 0px #00000080;
+    font-family: 'Source Sans Pro';
+    font-size: 14px;
+    color: #FFFFFF;
+    border-radius: 50px;
+    cursor: pointer;
+    margin: 0 0 30px 0;
+}
+
+.faq {
+    background-color: #ffffff;
+    width: 100%;
+
+}
+
+.faq h1 {
+    font-family: 'Source Sans Pro';
+    font-weight: 200;
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 80px;
+}
+
+.faq-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: start;
+    column-gap: -10px;
+    row-gap: 30px; 
+    margin-bottom: 70px;
+}
+
+
+.faq-container .questions {
+    margin-left: 400px;
+    padding: 10px;
+    gap: 10px;
+
+}
+
+.faq-container .questions h2 {
+    font-family: 'Source Sans Pro';
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+.faq-container .questions p {
+    font-family: 'Source Sans Pro';
+    color: #979797;
+    font-weight: 100;
+    max-width: 350px;
+    line-height: 40x;
+    margin-bottom: 10px; 
+}
+
+.faq-container .questions-col-2 {
+    margin-left: 70px;
+    padding: 10px;
+    gap: 10px;
+
+}
+
+.faq-container .questions-col-2 h2 {
+    font-family: 'Source Sans Pro';
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+.faq-container .questions-col-2 p {
+    font-family: 'Source Sans Pro';
+    color: #979797;
+    font-weight: lighter;
+    max-width: 350px;
+    line-height: 40x;
+    margin-bottom: 10px; 
+}
+
+.footer {
+    background-color: #071629;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    min-height: 300px;
+    padding: 0 190px;
+    position: relative;
+}
+
+.logo {
+    height: 35px;
+    margin-right: 100px;
+}
+
+.socials {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-right: 130px;
+}
+
+.socials img {
+    height: 35px;
+    width: 35px;
+}
+
+.footer p {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    font-family: 'Source Sans Pro';
+    color: #979797;
+    margin: 0;
+}
