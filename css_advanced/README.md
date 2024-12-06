@@ -101,3 +101,5 @@ This project focuses on building a fully functional webpage based on a provided 
 5. **Responsiveness**  
    - Layout adapts well to different screen sizes (if required).  
 
+
+You can see the deployed vesion right here (https://yousrakdc.github.io/holbertonschool-web-development/css_advanced/)
