@@ -30,12 +30,19 @@ header a {
     color: white;
     margin-left: 20px;
     font-family: 'Source Sans Pro', sans-serif;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 16px;
+    word-spacing: 100px;
 }
+
 
 header img {
     height: 30px;
+}
+
+nav {
+    display: flex;
+    gap: 40px;
 }
 
 .get-schooled {
@@ -78,10 +85,12 @@ header img {
 	text-align: center;
 	color: #FFFFFF;
 	border-radius: 50px;
+    margin-top: 30px;
 }
-/* Apply purple color to 'Learn' */
+
 .learn {
     color: #C271FF;
+    font-weight: bold;
 }
 
 .pros {
@@ -92,6 +101,11 @@ header img {
     text-align: center;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 32px;
+
+}
+
+.pros h2 {
+    font-weight: 200;
 }
 .people-row {
     display: flex;
@@ -169,19 +183,21 @@ header img {
     align-items: center;
     justify-content: center;
     text-align: center;
-	margin: 50px 0;
+	margin: 50px;
+    margin-bottom: 20px;
 }
 
 .tutorials h1 {
     width: 350px;
 	height: 40px;
-	font-weight: 300;
+	font-weight: 200;
 	line-height: 40px;
 	text-align: center;
 	color: #071629;
 	margin-bottom: 80px;
     font-family: 'Source Sans Pro';
     font-size: 32px;
+    margin-bottom: 30px;
 }
 
 .tutorials h1 span {
@@ -299,13 +315,14 @@ header img {
 .memberships h1 {
     width: 350px;
 	height: 40px;
-	font-weight: 300;
+	font-weight: 200;
 	line-height: 40px;
     font-family: 'Source Sans Pro';
     color: #FFFFFF;
     margin-bottom: 50px;
     font-weight: 300px;
     font-size: 32px;
+    padding: 30px;
 }
 
 .memberships h1 span {
@@ -350,7 +367,7 @@ header img {
     color: #FFFFFF;
     font-family: 'Source Sans Pro';
     font-size: 14px;
-    line-height: 20px;
+    line-height: 25px;
     margin-bottom: 15px;
     box-sizing: border-box;
     max-width: 200px;
@@ -368,6 +385,7 @@ header img {
     box-shadow: 0px 2px 20px 0px #00000080;
     font-family: 'Source Sans Pro';
     font-size: 14px;
+    font-weight: 300;
     color: #FFFFFF;
     border-radius: 50px;
     cursor: pointer;
@@ -461,7 +479,7 @@ header img {
 .socials {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 20px;
     margin-right: 130px;
 }
 
