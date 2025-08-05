@@ -15,7 +15,7 @@ This project focuses on building a semantic and well-structured HTML webpage fro
 
 ## Resources  
 1. **Figma File**  
-   - Access the design [here](insert-figma-link).  
+   - Access the design [here]([index.html](https://www.figma.com/design/pVbMZZmRniszMLzucPDTel/Holberton-School---Headphone-company--Copy-?node-id=0-1&m=dev&t=5IvepKEguSHPvu2r-1)).  
    - Duplicate the file to your drafts for detailed inspection of the design.
 
 2. **Fonts**  
